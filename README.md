@@ -34,6 +34,7 @@ It makes sense to experiment with larger number of samples per class.
 
 ```bash
 git clone https://github.com/zemlyansky/gzip-mean.git
+cd gzip-mean
 wget https://github.com/Sentdex/Simple-kNN-Gzip/raw/main/sentiment-dataset-10000.pickle
 for i in {1..5}; do python gzip-mean.py; done
 ```
